@@ -1,0 +1,485 @@
+ @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: "Source Serif 4", serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sarah{
+    position: absolute;
+    width: 43%;
+    z-index: -1;
+    height: 840px;
+}
+
+
+
+.pngwing{
+   margin-left: -210px;
+   position: absolute;
+   z-index: 1;
+}
+
+
+.second{
+    margin: 0 auto;
+}
+
+header{
+    position: absolute;
+display: flex;
+align-items: center;
+gap: 508px;
+padding-top: 40px;
+}
+
+ul{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 45px;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.px_18{
+font-size: 18px;
+font-weight: 700;
+line-height: 23.4px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(16, 28, 2, 1);
+}
+
+.home{
+    color: rgba(65, 138, 28, 1);
+}
+
+button{
+    box-shadow: 8px 8px 0px 0px rgba(81, 200, 21, 1);
+padding: 20px 30px;
+color: rgba(255, 255, 255, 1);
+background-color: rgba(8, 24, 0, 1);
+white-space: nowrap;
+}
+
+.Order{
+    color: rgba(255, 255, 255, 1);
+} 
+
+.px_80{
+font-size: 80.41px;
+font-weight: 800;
+line-height: 104.54px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(65, 138, 28, 1);
+}
+
+section{
+    margin-left: 365px;
+    width: 59%;
+margin-top: 70px;
+}
+
+.px_67{
+    color: rgba(8, 24, 0, 1);
+    font-family: Raleway;
+font-size: 67.01px;
+font-weight: 800;
+line-height: 87.11px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.section_p{
+    color: rgba(8, 24, 0, 1);
+    width: 530px;
+    margin-left: 180px;
+    line-height: 29px;
+    padding-top: 35px;
+}
+
+button:hover{
+    background-color: rgb(95, 91, 91);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+a:hover{
+    color: rgb(92, 87, 87);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.home:hover{
+    color: chartreuse;
+}
+
+.section_button{
+    margin-top: 85px;
+    margin-left: 187px;
+}
+
+.px_43{
+    font-family: Raleway;
+font-size: 43px;
+font-weight: 700;
+line-height: 60.2px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(65, 138, 28, 1);
+}
+
+.section_div{
+    padding-top: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 102px;
+}
+
+.px_57{
+    color: rgba(8, 24, 0, 1);
+    font-family: Raleway;
+font-size: 57px;
+font-weight: 800;
+line-height: 79.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.wing{
+    padding: 57px 45px 41px 49px;
+    border: 1px solid rgba(247, 255, 236, 1);
+    background-color: rgba(247, 255, 236, 1);
+    padding-top: 60px;
+}
+
+.wing_2{
+    padding: 9px 26px;
+    border: 1px solid rgba(247, 255, 236, 1);
+    background-color: rgba(247, 255, 236, 1);
+}
+
+.container_2{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.plants{
+    margin-top: 130px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.were{
+    padding: 40px 0 30px 0;
+    width: 95%;
+}
+
+.world{
+    width: 90%;
+}
+.checklist {
+    margin: 20px auto;
+    background: #fff;
+}
+
+/* Checklist item */
+.checklist-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.checklist-item:last-child {
+    margin-bottom: 0;
+}
+
+/* Label wrapping checkbox and content */
+.checklist-item label {
+    display: flex;
+    align-items: center;
+}
+
+/* Checkbox input */
+.checklist-item input[type="checkbox"] {
+    display: none; /* Hide the default checkbox */
+}
+
+/* Custom checkbox styling */
+.icon {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #2a7c2a;
+    background-color: rgba(65, 138, 28, 1);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.icon:hover{
+    cursor: pointer;
+
+}
+
+/* Icon for checked state */
+.icon::after {
+    content: "✔";
+    font-size: 18px;
+    color: white;
+    display: none;
+}
+
+/* Checkbox checked styling */
+.checklist-item input[type="checkbox"]:checked + .icon {
+    background-color: #2a7c2a;
+    border-color: #2a7c2a;
+}
+
+.checklist-item input[type="checkbox"]:checked + .icon::after {
+    display: block;
+}
+
+/* Text next to checkbox */
+.checklist-item p {
+    margin: 0;
+    font-size: 18px;
+    font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 28.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #555;
+margin-left: 30px;
+}
+
+.main_second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.pngwing_4,.pngwing_5{
+    padding: 32px 65px;
+    border: 1px solid rgba(247, 255, 236, 1);
+    background-color: rgba(247, 255, 236, 1);
+}
+
+.box_flower{
+    width: 492px;
+
+}
+
+.great{
+    width: 528px;
+}
+
+.video{
+    margin-top: 130px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+
+.starter{
+    position: absolute;
+    top: 350px;
+    left: 170px;
+}
+
+.starter_1{
+    position: absolute;
+    top: 250px;
+ right: 210px;
+}
+
+.latest{
+    width: 490px;
+}
+
+.kaktus{
+    width: 530px;
+}
+
+.see{
+    padding-bottom: 60px;
+}
+
+.lants{
+    padding-top: 40px;
+}
+
+.pngwing_7{
+    border: 1px solid rgba(247, 255, 236, 1);
+    background-color: rgba(247, 255, 236, 1);
+    padding: 49px 74px;
+}
+
+.pngwing_9{
+    border: 1px solid rgba(247, 255, 236, 1);
+    background-color: rgba(247, 255, 236, 1);
+    padding: 40px 55px;
+}
+
+.video img:hover{
+    cursor: pointer;
+    scale: 1.01;
+    transition: all 0.3s ease;
+}
+
+.fringila{
+    display: flex;
+    gap: 42px;
+    padding: 30px 43px;
+    border: 1px solid rgba(247, 255, 236, 1);
+    background-color: rgba(247, 255, 236, 1);
+}
+
+.px_32{
+    font-family: Raleway;
+font-size: 32px;
+font-weight: 600;
+line-height: 51.2px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(8, 24, 0, 1);
+}
+
+.px_14{
+    font-family: Raleway;
+font-size: 14px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(16, 28, 2, 1);
+}.px_24{
+    font-family: Raleway;
+font-size: 24px;
+font-weight: 700;
+line-height: 38.4px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(65, 138, 28, 1);
+}
+
+.main_third{
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.fringila_1{
+    margin-top: 25px;
+}
+
+.fringila_last{
+    padding: 40px 47px 46px 27px;
+}
+
+
+.article{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    margin-bottom: 130px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 156px;
+    padding: 109px 0 100px 0;
+    
+}
+
+.about a{
+    color: rgba(0, 10, 1, 1);
+}
+
+.about:nth-child(1){
+    font-weight: 700;
+    color: rgba(0, 10, 1, 1);
+}
+
+.facebook{
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+.about a:hover{
+    color: rgb(92, 87, 87);
+
+}
+
+.about .px_18{
+    padding-bottom: 15px;
+}
+
+.background_2{
+    background-color: rgba(247, 255, 236, 1);
+    position: relative;
+}
+
+.facebook:hover{
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.pngwing_last{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
